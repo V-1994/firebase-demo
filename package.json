@@ -1,0 +1,30 @@
+{
+  "name": "firebase-demo",
+  "version": "1.0.0",
+  "description": "A simple repo of learning firebase in node js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-1994/firebase-demo.git"
+  },
+  "keywords": [
+    "express",
+    "ejs",
+    "firebase"
+  ],
+  "author": "V-1994",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V-1994/firebase-demo/issues"
+  },
+  "homepage": "https://github.com/V-1994/firebase-demo#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "firebase": "^8.7.1",
+    "nodemon": "^2.0.12"
+  }
+}

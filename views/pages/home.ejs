@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/navbar'); %>
+</header>
+
+<main>
+  <div class="box" >
+    <h1 class="head1">Welcome to VK Website </h1></br>
+    <img src="banner2.png" alt="big screen" style="width: 1152px; height: 350px; margin-left: 89px;" />
+      <h1 style="margin: 22px 115px;">Most of the people in world likes and dislikes of movies based on genre</h1>
+      <div class="box1">
+      <% list.forEach(data => { %>
+        <h2><%= data.movie %></h2>
+         <ul>
+          <li>Parts - <%= data.parts %></li>
+          <li>Genre - <%= data.genre %></li>
+          <li>Budget - <%= data.budget %></li>
+          <li>Boxoffice - <%= data.boxoffice %></li>
+           <li>Rating - <%= data.rating %></li>
+         </ul>
+      <% }) %>
+   </div>
+ </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
